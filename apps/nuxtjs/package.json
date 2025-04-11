@@ -1,0 +1,55 @@
+{
+  "name": "@saasfly/nuxtjs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "bun with-env nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "format": "prettier --write '**/*.{js,ts,vue,md,json}' --ignore-path .prettierignore",
+    "clean": "git clean -xdf .nuxt .output node_modules",
+    "with-env": "dotenv -e ../../.env.local --"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@saasfly/eslint-config": "workspace:*",
+    "@saasfly/prettier-config": "workspace:*",
+    "@saasfly/tailwind-config": "workspace:*",
+    "@saasfly/typescript-config": "workspace:*",
+    "autoprefixer": "10.4.17",
+    "dotenv-cli": "7.3.0",
+    "eslint": "8.57.0",
+    "postcss": "8.4.31",
+    "prettier": "3.2.5",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.12.0",
+    "@nuxtjs/i18n": "^8.0.0",
+    "@pinia/nuxt": "^0.5.0",
+    "@saasfly/api": "workspace:*",
+    "@saasfly/auth": "workspace:*",
+    "@saasfly/db": "workspace:*",
+    "@saasfly/stripe": "workspace:*",
+    "@vueuse/core": "^10.7.0",
+    "date-fns": "3.3.1",
+    "nuxt": "^3.16.2",
+    "pinia": "^2.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "zod": "3.22.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@saasfly/eslint-config/base",
+      "@saasfly/eslint-config/vue"
+    ]
+  },
+  "prettier": "@saasfly/prettier-config"
+}

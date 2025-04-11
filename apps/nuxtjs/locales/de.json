@@ -1,0 +1,34 @@
+{
+  "home": {
+    "title": "Willkommen bei SaasFly",
+    "description": "Eine leistungsstarke SaaS-Vorlage"
+  },
+  "dashboard": {
+    "title": "Übersicht",
+    "welcome": "Willkommen, {name}!"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "forgotPassword": "Passwort vergessen?",
+    "loginToAccount": "Melden Sie sich bei Ihrem Konto an"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "dashboard": "Übersicht",
+    "settings": "Einstellungen",
+    "profile": "Profil",
+    "logout": "Abmelden"
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Weiterlesen",
+    "backToBlog": "Zurück zum Blog",
+    "postNotFound": "Blogbeitrag nicht gefunden"
+  },
+  "docs": {
+    "title": "Dokumentation",
+    "backToDocs": "Zurück zur Dokumentation",
+    "pageNotFound": "Dokumentationsseite nicht gefunden"
+  }
+}
